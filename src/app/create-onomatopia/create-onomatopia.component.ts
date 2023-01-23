@@ -13,5 +13,6 @@ export class CreateOnomatopiaComponent {
 
   createOnomatopia():void{
     this.sendOnomatopiaToParent.emit(this.newOnomatopia);
+    this.newOnomatopia=""
   }
 }
