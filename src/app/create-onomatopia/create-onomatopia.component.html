@@ -1,0 +1,10 @@
+<form>
+  <label for="onomatopé">Renseigner votre onomatopé :</label>
+  <input
+    type="text"
+    name="onomatopé"
+    id="onomatopé"
+    [(ngModel)]="newOnomatopia"
+  />
+  <button (click)="createOnomatopia()">Envoyer votre onomatopé au parent</button>
+</form>
